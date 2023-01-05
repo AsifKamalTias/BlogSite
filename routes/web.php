@@ -35,5 +35,6 @@ Route::controller(BlogController::class)->group(function(){
     Route::post('/blog/create/post', 'createBlogPost')->name('createBlogPost')->middleware('userLogged');
     Route::get('/blog/{id}', 'blog')->name('blog');
     Route::get('/blog/edit/{id}', 'blogEdit')->name('blog-edit')->middleware('userLogged');
+    Route::post('/blog/edit/post/{id}', 'editBlogPost')->name('editBlogPost')->middleware('userLogged');
     Route::get('/blog/delete/{id}', 'blogDelete')->name('blog-delete')->middleware('userLogged');
 });

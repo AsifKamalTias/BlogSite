@@ -14,6 +14,11 @@
                 {{session()->get('blog-delete-success')}}
             </div>
         @endif
+        @if(session()->has('blog-edit-success'))
+            <div class="alert alert-success mt-3">
+                {{session()->get('blog-edit-success')}}
+            </div>
+        @endif
         <div class="mt-4 shadow-sm p-3">
             <h4>My blogs</h4>
             <hr/>

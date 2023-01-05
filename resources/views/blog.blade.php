@@ -19,6 +19,6 @@
         </div>
         @endif
         
-        <p class="mt-3">{{$blog->description}}</p>
+        <p class="my-3 text-justify">{{$blog->description}}</p>
     </div>
 @endsection

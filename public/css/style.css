@@ -5,3 +5,27 @@
     width: 300px;
     height: 200px;
 }
+
+.text-justify{
+    text-align: justify;
+}
+
+.update-blog-img{
+    width: 100px;
+    border: 1px dashed black;
+    padding: 2px;
+}
+
+.update-blog-img img{
+    height: 70px;
+}
+
+.update-featured-img{
+    border:  1px dashed black;
+    padding: 2px;
+}
+
+.update-featured-img img{
+    width: 100px;
+    height: 70px;
+}
